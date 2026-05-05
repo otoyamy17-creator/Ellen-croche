@@ -29,17 +29,17 @@ body {
 .nav-wrap { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:1.1rem 0; }
 .brand { display:flex; align-items:center; gap:.8rem; text-decoration:none; color:inherit; }
 
-.brand img { width: 56px; }
 .brand .brand-wordmark {
   width: min(340px, 46vw);
   height: auto;
   object-fit: contain;
 }
 
-
-.brand img { width: 86px; height:auto; }
-.brand strong { font-family: 'Cormorant Garamond', serif; font-size: 2rem; display:block; line-height:1; }
-.brand span { color:#9b7f72; font-size:.85rem; }
+.brand .brand-side-image {
+  width: 86px;
+  height: auto;
+  object-fit: contain;
+}
 
 nav { display:flex; gap:1.5rem; }
 nav a { text-decoration:none; color:#5f4a41; font-weight:500; }
