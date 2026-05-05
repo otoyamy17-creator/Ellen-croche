@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crochê & Amor | Feito à mão, feito com amor</title>
+    <title>Ellen Crochê | Peças feitas à mão com amor</title>
     <meta
       name="description"
-      content="Loja de crochê artesanal com peças únicas, feitas com amor para deixar seu dia mais bonito."
+      content="Ellen Crochê: loja de crochê artesanal com peças únicas, delicadas e feitas à mão para transformar seus ambientes e momentos."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Dancing+Script:wght@500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Dancing+Script:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="icon" type="image/svg+xml" href="assets/logo-ellen-croche.svg" />
@@ -22,17 +22,28 @@
 
     <header class="site-header">
       <div class="container nav-wrap">
-        <div class="brand">
-          <img src="assets/logo-ellen-croche.svg" alt="Logo Crochê & Amor" />
+        <a class="brand" href="#" aria-label="Página inicial Ellen Crochê">
+          <img src="assets/logo-ellen-croche.svg" alt="Logo Ellen Crochê" />
           <div>
-            <strong>Crochê &amp; Amor</strong>
-            <span>Feito à mão, feito com amor</span>
+            <strong>Ellen Crochê</strong>
+            <span>Feito à mão, com carinho</span>
           </div>
-        </div>
+        </a>
+
         <nav>
-          <a class="active" href="#">Início</a><a href="#">Loja</a><a href="#">Categorias</a
-          ><a href="#">Novidades</a><a href="#">Sobre nós</a><a href="#">Contato</a>
+          <a class="active" href="#">Início</a>
+          <a href="#">Loja</a>
+          <a href="#categorias">Categorias</a>
+          <a href="#novidades">Novidades</a>
+          <a href="#">Sobre nós</a>
+          <a href="#">Contato</a>
         </nav>
+
+        <div class="actions" aria-label="Ações da loja">
+          <button aria-label="Buscar">⌕</button>
+          <button aria-label="Minha conta">◯</button>
+          <button aria-label="Carrinho">🛒</button>
+        </div>
       </div>
     </header>
 
@@ -42,49 +53,97 @@
           <div class="hero-copy">
             <h1>Peças únicas, <span>feitas com amor ♡</span></h1>
             <p>
-              Produtos de crochê feitos à mão com carinho para deixar seu dia a dia mais bonito e
-              acolhedor.
+              Produtos de crochê feitos à mão com carinho para deixar seu dia a dia mais bonito,
+              delicado e acolhedor.
             </p>
-            <a href="#produtos" class="btn">Conheça a loja →</a>
+            <a class="btn" href="#novidades">Conheça a loja →</a>
+
+            <div class="hero-points">
+              <article><strong>♡ Feito à mão</strong><span>com muito carinho</span></article>
+              <article><strong>✿ Qualidade</strong><span>materiais selecionados</span></article>
+              <article><strong>☖ Enviamos</strong><span>para todo o Brasil</span></article>
+            </div>
           </div>
+
           <img
-            src="https://images.unsplash.com/photo-1622843247413-fd9f57c9d4f4?auto=format&fit=crop&w=1400&q=80"
-            alt="Bolsa de crochê artesanal"
+            src="https://images.unsplash.com/photo-1617953141905-b27fb64d4c94?auto=format&fit=crop&w=1600&q=80"
+            alt="Bolsa e peças em crochê em tons neutros"
           />
         </div>
       </section>
 
-      <section class="container categories">
+      <section class="container categories" id="categorias">
         <h2>Nossas categorias</h2>
         <div class="cards-5">
-          <article><img src="https://images.unsplash.com/photo-1579081665405-86f7d4f4f844?auto=format&fit=crop&w=700&q=80" alt="Bolsas" /><h3>Bolsas</h3></article>
-          <article><img src="https://images.unsplash.com/photo-1578598336084-b5f9df9f6f4e?auto=format&fit=crop&w=700&q=80" alt="Decoração" /><h3>Decoração</h3></article>
-          <article><img src="https://images.unsplash.com/photo-1510220660746-8c0c1ab6c3d9?auto=format&fit=crop&w=700&q=80" alt="Amigurumis" /><h3>Amigurumis</h3></article>
-          <article><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80" alt="Acessórios" /><h3>Acessórios</h3></article>
-          <article><img src="https://images.unsplash.com/photo-1603993097397-89fa8a7c9c6f?auto=format&fit=crop&w=700&q=80" alt="Utilitários" /><h3>Utilitários</h3></article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80" alt="Bolsas em crochê" />
+            <h3>Bolsas</h3>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1616047006789-b7af22f8f339?auto=format&fit=crop&w=900&q=80" alt="Cestos decorativos" />
+            <h3>Decoração</h3>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1584999734482-0361aecad844?auto=format&fit=crop&w=900&q=80" alt="Amigurumi" />
+            <h3>Amigurumis</h3>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=900&q=80" alt="Chapéu em crochê" />
+            <h3>Acessórios</h3>
+          </article>
+          <article>
+            <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=900&q=80" alt="Sousplats em crochê" />
+            <h3>Utilitários</h3>
+          </article>
         </div>
       </section>
 
-      <section class="container novidades" id="produtos">
+      <section class="container novidades" id="novidades">
         <aside>
           <p class="label">Novidades</p>
           <h2>Sempre tem algo <span>novo por aqui!</span></h2>
-          <p>Confira nossos lançamentos e apaixone-se.</p>
+          <p>Confira nossos lançamentos e apaixone-se em cada detalhe.</p>
           <a href="#" class="btn">Ver novidades →</a>
         </aside>
+
         <div class="products">
-          <article><img src="https://images.unsplash.com/photo-1579081665405-86f7d4f4f844?auto=format&fit=crop&w=700&q=80" alt="Bolsa flores" /><h3>Bolsa Flores do Campo</h3><p class="price">R$ 189,90</p></article>
-          <article><img src="https://images.unsplash.com/photo-1578598336084-b5f9df9f6f4e?auto=format&fit=crop&w=700&q=80" alt="Cesto" /><h3>Cesto Organizador</h3><p class="price">R$ 99,90</p></article>
-          <article><img src="https://images.unsplash.com/photo-1510220660746-8c0c1ab6c3d9?auto=format&fit=crop&w=700&q=80" alt="Coelhinha" /><h3>Coelhinha Amigurumi</h3><p class="price">R$ 129,90</p></article>
-          <article><img src="https://images.unsplash.com/photo-1603993097397-89fa8a7c9c6f?auto=format&fit=crop&w=700&q=80" alt="Sousplat" /><h3>Kit Sousplat</h3><p class="price">R$ 79,90</p></article>
+          <article>
+            <span class="tag">Novo</span>
+            <img src="https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&w=900&q=80" alt="Bolsa Flores do Campo" />
+            <h3>Bolsa Flores do Campo</h3>
+            <p class="price">R$ 189,90</p>
+          </article>
+          <article>
+            <span class="tag">Novo</span>
+            <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=900&q=80" alt="Cesto organizador" />
+            <h3>Cesto Organizador</h3>
+            <p class="price">R$ 99,90</p>
+          </article>
+          <article>
+            <span class="tag">Novo</span>
+            <img src="https://images.unsplash.com/photo-1584999734482-0361aecad844?auto=format&fit=crop&w=900&q=80" alt="Coelhinha amigurumi" />
+            <h3>Coelhinha Amigurumi</h3>
+            <p class="price">R$ 129,90</p>
+          </article>
+          <article>
+            <span class="tag">Novo</span>
+            <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=900&q=80" alt="Kit sousplat" />
+            <h3>Kit Sousplat</h3>
+            <p class="price">R$ 79,90</p>
+          </article>
         </div>
       </section>
 
       <section class="container benefits">
-        <article>♡ Feito à mão</article>
-        <article>✿ Sustentável</article>
-        <article>🛡 Compra segura</article>
-        <article>🚚 Frete para todo o Brasil</article>
+        <article><strong>♡ Feito à mão</strong><span>Cada peça é única e feita com amor.</span></article>
+        <article><strong>✿ Sustentável</strong><span>Produção consciente e materiais selecionados.</span></article>
+        <article><strong>🛡 Compra segura</strong><span>Seus dados protegidos do início ao fim.</span></article>
+        <article><strong>🚚 Frete para todo o Brasil</strong><span>Enviamos com carinho para você.</span></article>
+      </section>
+
+      <section class="closing container">
+        <h2>Ellen Crochê que acolhe, encanta e transforma.</h2>
+        <p>Seja bem-vindo! ♡</p>
       </section>
     </main>
   </body>
