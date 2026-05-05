@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ellen Crochê | Feito à mão, com amor</title>
+    <meta
+      name="description"
+      content="Peças de crochê minimalistas e artesanais da Ellen Crochê. Feito à mão, com amor."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <img src="assets/logo-ellen-croche.svg" alt="Logo Ellen Crochê" class="logo" />
+      <h1>Ellen Crochê</h1>
+      <p class="tagline">Feito à mão, com amor</p>
+      <a href="#contato" class="btn">Fale no WhatsApp</a>
+    </header>
+
+    <main>
+      <section class="section" id="sobre">
+        <h2>Minimalismo com aconchego</h2>
+        <p>
+          Crochê autoral com estética leve, tons suaves e acabamento delicado para deixar seu dia
+          a dia mais bonito.
+        </p>
+      </section>
+
+      <section class="section grid" id="colecao">
+        <article class="card">
+          <h3>Decoração</h3>
+          <p>Sousplats, cestos e detalhes elegantes para a sua casa.</p>
+        </article>
+        <article class="card">
+          <h3>Acessórios</h3>
+          <p>Bolsas e peças versáteis para um estilo natural e atemporal.</p>
+        </article>
+        <article class="card">
+          <h3>Encomendas</h3>
+          <p>Produção personalizada para presentes e ocasiões especiais.</p>
+        </article>
+      </section>
+
+      <section class="section contact" id="contato">
+        <h2>Vamos criar sua peça?</h2>
+        <p>Atendimento por mensagem para encomendas personalizadas.</p>
+        <a class="btn btn-outline" href="https://wa.me/5500000000000" target="_blank" rel="noreferrer">
+          Enviar mensagem
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Ellen Crochê • Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
