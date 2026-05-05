@@ -3,66 +3,88 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ellen Crochê | Feito à mão, com amor</title>
+    <title>Crochê & Amor | Feito à mão, feito com amor</title>
     <meta
       name="description"
-      content="Peças de crochê minimalistas e artesanais da Ellen Crochê. Feito à mão, com amor."
+      content="Loja de crochê artesanal com peças únicas, feitas com amor para deixar seu dia mais bonito."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Dancing+Script:wght@500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero">
-      <img src="assets/logo-ellen-croche.svg" alt="Logo Ellen Crochê" class="logo" />
-      <h1>Ellen Crochê</h1>
-      <p class="tagline">Feito à mão, com amor</p>
-      <a href="#contato" class="btn">Fale no WhatsApp</a>
+    <div class="topbar">♡ Frete grátis para compras acima de R$199</div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <img src="assets/logo-ellen-croche.svg" alt="Logo Crochê & Amor" />
+          <div>
+            <strong>Crochê &amp; Amor</strong>
+            <span>Feito à mão, feito com amor</span>
+          </div>
+        </div>
+        <nav>
+          <a class="active" href="#">Início</a><a href="#">Loja</a><a href="#">Categorias</a
+          ><a href="#">Novidades</a><a href="#">Sobre nós</a><a href="#">Contato</a>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section class="section" id="sobre">
-        <h2>Minimalismo com aconchego</h2>
-        <p>
-          Crochê autoral com estética leve, tons suaves e acabamento delicado para deixar seu dia
-          a dia mais bonito.
-        </p>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1>Peças únicas, <span>feitas com amor ♡</span></h1>
+            <p>
+              Produtos de crochê feitos à mão com carinho para deixar seu dia a dia mais bonito e
+              acolhedor.
+            </p>
+            <a href="#produtos" class="btn">Conheça a loja →</a>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1622843247413-fd9f57c9d4f4?auto=format&fit=crop&w=1400&q=80"
+            alt="Bolsa de crochê artesanal"
+          />
+        </div>
       </section>
 
-      <section class="section grid" id="colecao">
-        <article class="card">
-          <h3>Decoração</h3>
-          <p>Sousplats, cestos e detalhes elegantes para a sua casa.</p>
-        </article>
-        <article class="card">
-          <h3>Acessórios</h3>
-          <p>Bolsas e peças versáteis para um estilo natural e atemporal.</p>
-        </article>
-        <article class="card">
-          <h3>Encomendas</h3>
-          <p>Produção personalizada para presentes e ocasiões especiais.</p>
-        </article>
+      <section class="container categories">
+        <h2>Nossas categorias</h2>
+        <div class="cards-5">
+          <article><img src="https://images.unsplash.com/photo-1579081665405-86f7d4f4f844?auto=format&fit=crop&w=700&q=80" alt="Bolsas" /><h3>Bolsas</h3></article>
+          <article><img src="https://images.unsplash.com/photo-1578598336084-b5f9df9f6f4e?auto=format&fit=crop&w=700&q=80" alt="Decoração" /><h3>Decoração</h3></article>
+          <article><img src="https://images.unsplash.com/photo-1510220660746-8c0c1ab6c3d9?auto=format&fit=crop&w=700&q=80" alt="Amigurumis" /><h3>Amigurumis</h3></article>
+          <article><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80" alt="Acessórios" /><h3>Acessórios</h3></article>
+          <article><img src="https://images.unsplash.com/photo-1603993097397-89fa8a7c9c6f?auto=format&fit=crop&w=700&q=80" alt="Utilitários" /><h3>Utilitários</h3></article>
+        </div>
       </section>
 
-      <section class="section contact" id="contato">
-        <h2>Vamos criar sua peça?</h2>
-        <p>Atendimento por mensagem para encomendas personalizadas.</p>
-        <a class="btn btn-outline" href="https://wa.me/5500000000000" target="_blank" rel="noreferrer">
-          Enviar mensagem
-        </a>
+      <section class="container novidades" id="produtos">
+        <aside>
+          <p class="label">Novidades</p>
+          <h2>Sempre tem algo <span>novo por aqui!</span></h2>
+          <p>Confira nossos lançamentos e apaixone-se.</p>
+          <a href="#" class="btn">Ver novidades →</a>
+        </aside>
+        <div class="products">
+          <article><img src="https://images.unsplash.com/photo-1579081665405-86f7d4f4f844?auto=format&fit=crop&w=700&q=80" alt="Bolsa flores" /><h3>Bolsa Flores do Campo</h3><p class="price">R$ 189,90</p></article>
+          <article><img src="https://images.unsplash.com/photo-1578598336084-b5f9df9f6f4e?auto=format&fit=crop&w=700&q=80" alt="Cesto" /><h3>Cesto Organizador</h3><p class="price">R$ 99,90</p></article>
+          <article><img src="https://images.unsplash.com/photo-1510220660746-8c0c1ab6c3d9?auto=format&fit=crop&w=700&q=80" alt="Coelhinha" /><h3>Coelhinha Amigurumi</h3><p class="price">R$ 129,90</p></article>
+          <article><img src="https://images.unsplash.com/photo-1603993097397-89fa8a7c9c6f?auto=format&fit=crop&w=700&q=80" alt="Sousplat" /><h3>Kit Sousplat</h3><p class="price">R$ 79,90</p></article>
+        </div>
+      </section>
+
+      <section class="container benefits">
+        <article>♡ Feito à mão</article>
+        <article>✿ Sustentável</article>
+        <article>🛡 Compra segura</article>
+        <article>🚚 Frete para todo o Brasil</article>
       </section>
     </main>
-
-    <footer>
-      <p>© <span id="year"></span> Ellen Crochê • Todos os direitos reservados.</p>
-    </footer>
-
-    <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
   </body>
 </html>
