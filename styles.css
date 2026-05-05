@@ -1,0 +1,109 @@
+:root {
+  --bg: #f2ebe6;
+  --surface: #f8f3ef;
+  --text: #7f6451;
+  --accent: #b27a74;
+  --deep: #8d6b54;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.25rem 3rem;
+}
+
+.hero {
+  min-height: 90vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.logo {
+  width: min(440px, 80vw);
+  filter: drop-shadow(0 12px 22px rgba(141, 107, 84, 0.08));
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Cormorant Garamond', serif;
+  color: var(--deep);
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 7vw, 4rem);
+  margin-top: 0.7rem;
+}
+
+.tagline {
+  margin-top: 0.2rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+}
+
+.btn {
+  margin-top: 1.4rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: var(--accent);
+  padding: 0.72rem 1.2rem;
+  border-radius: 999px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  opacity: 0.92;
+}
+
+.section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 2.2rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid rgba(178, 122, 116, 0.25);
+  border-radius: 18px;
+  padding: 1.2rem;
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--deep);
+  border: 1px solid var(--deep);
+}
+
+footer {
+  text-align: center;
+  padding: 1.6rem 1rem 2.2rem;
+  font-size: 0.9rem;
+}
