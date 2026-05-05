@@ -29,12 +29,6 @@ body {
 .nav-wrap { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:1.1rem 0; }
 .brand { display:flex; align-items:center; gap:.8rem; text-decoration:none; color:inherit; }
 
-.brand .brand-wordmark {
-  width: min(340px, 46vw);
-  height: auto;
-  object-fit: contain;
-}
-
 .brand .brand-side-image {
   width: 86px;
   height: auto;
